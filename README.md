@@ -14,7 +14,7 @@ bash
 pip install gradio langchain langchain-community langchain-text-splitters faiss-cpu openai python-dotenv pypdf numpy
 目录结构
 plaintext
-├── 2_main.py        # 项目主程序
+├── main.py        # 项目主程序
 ├── .env.example     # 环境变量模板文件
 ├── .gitignore       # Git忽略规则配置
 ├── LICENSE          # 开源许可证文件
@@ -29,7 +29,7 @@ faiss_db 文件夹：运行生成向量库，自动被 git 忽略不上传仓库
 把需要解析的 PDF 论文全部放进 papers 文件夹
 启动项目
 bash
-python 2_main.py
+python main.py
 浏览器访问： http://127.0.0.1:7860
 使用流程
 ①点击【上传并构建知识库】，控制台输出构建日志（文档数量、分片数量）
