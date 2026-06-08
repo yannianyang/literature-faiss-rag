@@ -1,0 +1,94 @@
+# ========== 项目自定义规则 ==========
+# 向量库存放目录（运行生成，不上传）
+faiss_db/
+vector_store/
+*.faiss
+*.index
+*.pkl
+
+# 密钥配置文件（隐私，严禁上传）
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# 各类调试、测试脚本
+debug_*.py
+test_*.py
+tests/
+
+# 论文文献文件夹：所有PDF/图片资料不上传仓库，仅保留.gitkeep维持目录结构
+papers/**
+!papers/.gitkeep
+
+# ========== Python 通用规则 ==========
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Python 打包与构建产物
+build/
+dist/
+*.egg-info/
+*.egg
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+
+# Python 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# ========== 项目运行时文件 ==========
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+downloads/
+
+# Gradio 运行缓存
+.gradio/
+gradio_cached_examples/
+
+# ========== 编辑器 & IDE 配置 ==========
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.ipython/
+profile_default/
+
+# ========== 系统自动生成文件 ==========
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride

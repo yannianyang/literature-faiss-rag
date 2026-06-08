@@ -1,0 +1,12 @@
+# 基础依赖
+gradio>=4.0
+python-dotenv>=1.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.0
+faiss-cpu  # 必装，FAISS 向量库，CPU版本；GPU选 faiss-gpu
+pypdf  # PyPDFLoader 依赖
+numpy>=1.24
+# 可选（通义千问专属，使用 text-embedding-v2 必须装）
+dashscope
