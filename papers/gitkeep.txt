@@ -1,0 +1,2 @@
+This file exists only to preserve the empty papers directory in git.
+All paper PDFs and materials are ignored via .gitignore.
